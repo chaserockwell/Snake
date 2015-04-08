@@ -101,16 +101,12 @@
     $(document).keydown(function(e){
        if (e.keyCode == 37 && dir != 'right') {
            dir = 'left';
-           console.log(dir);
        } else if (e.keyCode == 38 && dir != 'down') {
            dir = 'up';
-           console.log(dir);
        } else if (e.keyCode == 39 && dir != 'left') {
            dir = 'right';
-           console.log(dir);
        } else if (e.keyCode == 40 && dir != 'up') {
            dir = 'down';
-           console.log(dir);
        }
     });
 })();
